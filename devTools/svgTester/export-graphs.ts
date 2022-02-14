@@ -5,6 +5,11 @@ import * as utils from "./utils.js"
 import * as fs from "fs-extra"
 const { join } = require("path")
 
+import { dirname } from "path"
+import { fileURLToPath } from "url"
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
 import * as path from "path"
 const Pool = require("multiprocessing").Pool
 const pool = new Pool()

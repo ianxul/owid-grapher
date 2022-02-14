@@ -6,6 +6,11 @@ import * as fs from "fs-extra"
 
 import * as path from "path"
 
+import { dirname } from "path"
+import { fileURLToPath } from "url"
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
 import { ChartTypeName } from "../../grapher/core/GrapherConstants.js"
 const Pool = require("multiprocessing").Pool
 const pool = new Pool()
