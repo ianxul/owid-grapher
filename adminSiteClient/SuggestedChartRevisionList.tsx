@@ -1,7 +1,7 @@
 import React from "react"
 import { observer } from "mobx-react"
 import { format } from "timeago.js"
-import * as lodash from "lodash"
+import * as lodash from "lodash-es"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome/index.js"
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons/faQuestionCircle.js"
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons/faCheckCircle.js"
