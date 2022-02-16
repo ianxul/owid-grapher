@@ -12,7 +12,7 @@ import { fileURLToPath } from "url"
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 import { ChartTypeName } from "../../grapher/core/GrapherConstants.js"
-const Pool = require("multiprocessing").Pool
+import { Pool } from "multiprocessing"
 const pool = new Pool()
 
 async function main(parsedArgs: parseArgs.ParsedArgs) {
